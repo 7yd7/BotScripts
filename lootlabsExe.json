@@ -33,5 +33,10 @@
     "url": "https://getsolara.dev/download/static/files/BootstrapperNew.exe",
     "lootlabs": "https://lootdest.org/s?85zUHj5m",
     "updatedAt": 1783872254931
+  },
+  "Vega X Android": {
+    "url": "https://github.com/1f0yt/community/releases/download/Vegax/Vega.X.apk",
+    "lootlabs": "https://loot-link.com/s?3Gfmx6rn",
+    "updatedAt": 1783872431300
   }
 }

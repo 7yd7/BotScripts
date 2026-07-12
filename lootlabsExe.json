@@ -3,5 +3,10 @@
     "url": "https://filerift.com/file/BEN2BKv00w",
     "lootlabs": "https://lootdest.org/s?h2ndzcPf",
     "updatedAt": 1783871764500
+  },
+  "Volt": {
+    "url": "https://api.voltbz.net/version/download/ui",
+    "lootlabs": "https://lootdest.org/s?x4CxJChT",
+    "updatedAt": 1783871898815
   }
 }

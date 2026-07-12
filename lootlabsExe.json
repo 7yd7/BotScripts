@@ -8,5 +8,10 @@
     "url": "https://api.voltbz.net/version/download/ui",
     "lootlabs": "https://lootdest.org/s?x4CxJChT",
     "updatedAt": 1783871898815
+  },
+  "Real": {
+    "url": "https://projectreal.gg/ar/download/",
+    "lootlabs": "https://loot-link.com/s?43mY8AYF",
+    "updatedAt": 1783871927176
   }
 }

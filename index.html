@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Redirecting...</title>
+<script>
+const params = new URLSearchParams(window.location.search);
+const exe = params.get('exe');
+
+const FALLBACK_URL = 'https://discord.com/oauth2/authorize?client_id=1415079750178963618';
+const JSON_URL = 'https://raw.githubusercontent.com/7yd7/BotScripts/refs/heads/test/lootlabsExe.json';
+
+if (!exe) {
+  window.location.replace(FALLBACK_URL);
+} else {
+  fetch(JSON_URL)
+    .then(r => r.json())
+    .then(data => {
+      const entry = data[exe];
+      if (entry && entry.lootlabs) {
+        window.location.replace(entry.lootlabs);
+      } else {
+        window.location.replace(FALLBACK_URL);
+      }
+    })
+    .catch(() => window.location.replace(FALLBACK_URL));
+}
+</script>
+</head>
+<body>
+<p>Redirecting...</p>
+</body>
+</html>

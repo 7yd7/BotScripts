@@ -45,8 +45,8 @@
     "updatedAt": 1790035418346
   },
   "Delta iOS": {
-    "url": "https://github.com/SymaroTeam/DeltaOTA/raw/refs/heads/main/Signed.ipa",
-    "lootlabs": "https://lootdest.org/s?WFHL6r66",
-    "updatedAt": 1790311542451
+    "url": "itms-services://?action=download-manifest&url=https://delta.bz/manifest.plist",
+    "lootlabs": "https://loot-link.com/s?A4fCWEXM",
+    "updatedAt": 1790311753830
   }
 }

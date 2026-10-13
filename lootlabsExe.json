@@ -43,5 +43,10 @@
     "url": "https://github.com/SPDMTiahh/Updates/releases/download/2.3.7/Roblox.Arceus.X.NEO.2.3.7.apk",
     "lootlabs": "https://lootdest.org/s?PxiJglwA",
     "updatedAt": 1791855734070
+  },
+  "Delta iOS": {
+    "url": "itms-services://?action=download-manifest&url=https://delta.bz/manifest.plist",
+    "lootlabs": "https://lootdest.org/s?lSKtFwdd",
+    "updatedAt": 1791919816281
   }
 }
